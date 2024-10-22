@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Doctor Diagram</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container-fluid d-flex align-items-center justify-content-center vh-100">
+        <div class="welcome-container">
+            <h2 class="welcome-title">Create Your Account</h2>
+            <p class="subtitle">Join us and explore the world of economics!</p>
+            <form class="signup-form text-center">
+                <input type="text" class="form-control mb-3" placeholder="First Name" required>
+                <input type="text" class="form-control mb-3" placeholder="Surname" required>
+                <input type="email" class="form-control mb-3" placeholder="Email" required>
+                <input type="password" class="form-control mb-3" placeholder="Password" required>
+                <input type="password" class="form-control mb-3" placeholder="Confirm Password" required>
+                <button type="button" class="btn btn-primary btn-block" onclick="redirectTo('index.html')">Sign Up</button>
+            </form>
+            <p class="mt-3">Already have an account? <a href="login.html" class="text-primary">Login here</a></p>
+        </div>
+    </div>
+
+    <script src="index.js"></script> <!-- Ensure this is linked correctly -->
+</body>
+</html>
