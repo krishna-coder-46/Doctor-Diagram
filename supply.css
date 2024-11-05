@@ -1,0 +1,111 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5); /* Light teal gradient background */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Main container for layout */
+#mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Graph Container Styling */
+#graphContainer {
+    width: 380px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#graphCanvas {
+    width: 350px;
+    height: 350px;
+}
+
+/* Table Styling */
+#tableContainer {
+    width: 330px;
+    border-radius: 10px;
+    background-color: #b2ebf2; /* Light teal background for the table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+}
+
+th {
+    font-weight: bold;
+    background-color: #4dd0e1; /* Darker teal for the header */
+    color: white;
+}
+
+/* Explanation Box Styling */
+#explanationContainer {
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e1f5fe; /* Light blue for the explanation */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #333;
+    text-align: left;
+}
+
+/* Button Styling */
+#buttonContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#backButton, #nextButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#backButton {
+    background-color: #757575; /* Gray color */
+}
+
+#nextButton {
+    background-color: #2979ff; /* Blue color */
+}
+
+#backButton:hover {
+    background-color: #616161;
+}
+
+#nextButton:hover {
+    background-color: #1565c0;
+}

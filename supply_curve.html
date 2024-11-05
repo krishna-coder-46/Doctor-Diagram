@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Demand Curve</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="supply.css">
 </head>
 <body>
-    <h1> Hello World </h1>
+    <h1>Supply Curve</h1>
+    <div id="mainContainer">
+        <!-- Left side: Graph Container -->
+        <div id="graphContainer">
+            <canvas id="graphCanvas"></canvas>
+        </div>
+
+        <!-- Middle: Demand Table -->
+        <div id="tableContainer">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Price</th>
+                        <th>Quantity supply</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>5</td><td>60</td></tr>
+                    <tr><td>4</td><td>50</td></tr>
+                    <tr><td>3</td><td>40</td></tr>
+                    <tr><td>2</td><td>30</td></tr>
+                    <tr><td>1</td><td>20</td></tr>
+                    <tr><td>1</td><td>10</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Right side: Explanation Box -->
+        <div id="explanationContainer">
+            <h3>Explanation of the Diagram</h3>
+            <p>This diagram is a supply curve in economics, showing the relationship between price (Y-axis) and quantity supplied (X-axis).</p>
+            <p>The red upward-sloping line indicates that as the price increases, the quantity supplied also increases, following the law of supply.</p>
+            <p>Each black dot represents a specific price-quantity combination, with vertical and horizontal lines marking these values on the axes.</p>
+        </div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div id="buttonContainer">
+        <button id="backButton">Back</button>
+        <button id="nextButton">Next</button>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="supply.js"></script>
 </body>
 </html>
